@@ -6,6 +6,7 @@ import Head from 'next/head'
 import { ThemeProvider } from 'next-themes'
 import type { AppProps } from 'next/app'
 import { LayoutWrapper } from '@/components/LayoutWrapper'
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App({ Component, pageProps }: AppProps) {
    return (
@@ -15,6 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <LayoutWrapper>
         <Component {...pageProps} />
+        <Analytics />
       </LayoutWrapper>
     </ThemeProvider>
   )
