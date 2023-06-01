@@ -4,7 +4,7 @@ import { POSTS_PER_PAGE } from '@/constants'
 import { getCommentConfigs } from '@/libs/comment'
 import { formatSlug, getFiles } from '@/libs/files'
 import { getAllFilesFrontMatter, getFileBySlug } from '@/libs/mdx'
-import type { AuthorFrontMatter,  MdxPageLayout } from '@/types/mdx'
+import type { AuthorFrontMatter, MdxPageLayout } from '@/types/mdx'
 import { BlogProps } from '@/types/page'
 
 let DEFAULT_LAYOUT: MdxPageLayout = 'PostSimple'
@@ -37,8 +37,8 @@ export async function getStaticProps({ params }: { params: { slug: string[] } })
       return authorData.frontMatter as unknown as AuthorFrontMatter
     })
   )
- 
-  let commentConfig = getCommentConfigs()
+
+  const commentConfig = getCommentConfigs()
 
   return { props: { post, authorDetails, prev, next, page, commentConfig } }
 }

@@ -3,7 +3,6 @@ import { Heading } from '@/components/home/Heading'
 import { TypedBios } from '@/components/home/TypedBios'
 import { ShortDescription } from '@/components/home/ShortDescription'
 import Twemoji from '@/components/Twemoji'
-import { BlogLinks } from '@/components/home/BlogLinks'
 import { FeaturedPosts } from '@/components/home/FeaturedPosts'
 import { getAllFilesFrontMatter } from '@/libs/mdx'
 import { BlogFrontMatter } from '@/types/mdx'
@@ -25,7 +24,6 @@ export default function Home({ posts }: { posts: BlogFrontMatter[] }) {
               <Heading />
               <TypedBios />
               <ShortDescription />
-              <BlogLinks />
               <p className="my-8 flex">
                 <span className="mr-2">Happy reading</span>
                 <Twemoji emoji="clinking-beer-mugs" />

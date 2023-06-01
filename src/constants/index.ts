@@ -7,6 +7,8 @@ export let MAIN_CONTENT_MIN_HEIGHT = `calc(100vh - ${HEADER_HEIGHT} - ${FOOTER_H
 export let POSTS_PER_PAGE = 5
 export let FEATURED_POSTS = 5
 
+export let GISCUS_COMMENTS_ID = 'comments-container'
+
 export let TOKEN_CLASSNAME_MAP: TokenClassNameMap = {
     tag: 'text-code-red',
     'attr-name': 'text-code-yellow',

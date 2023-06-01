@@ -13,7 +13,7 @@ export const siteMetadata = {
     email: 'eskilsand@outlook.com',
     github: 'https://github.com/eskil0312',
     locale: 'en-US',
-    siteRepo:"",
+    siteRepo:"https://github.com/eskil0312/blog",
     siteUrl:"",
     twitter:"",
     linkedin: "eskil-sand-23300015b",
@@ -24,9 +24,6 @@ export const siteMetadata = {
     },
   }
   export const commentConfig = {
-    provider: 'giscus', // 'giscus' | 'utterances' | 'disqus',
-    // https://giscus.app/
-    giscusConfig: {
       repo: '', // process.env.GISCUS_REPO
       repositoryId: '', // process.env.GISCUS_REPOSITORY_ID
       category: '', // process.env.GISCUS_CATEGORY
@@ -37,17 +34,4 @@ export const siteMetadata = {
       lightTheme: 'light',
       darkTheme: 'transparent_dark',
       themeURL: '',
-    },
-    // https://utteranc.es/
-    utterancesConfig: {
-      repo: '', // process.env.UTTERANCES_REPO
-      issueTerm: '',
-      label: '',
-      lightTheme: '',
-      darkTheme: '',
-    },
-    // https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-    disqus: {
-      shortname: '', // process.env.DISQUS_SHORTNAME
-    },
   }
