@@ -14,7 +14,7 @@ export const siteMetadata = {
     github: 'https://github.com/eskil0312',
     locale: 'en-US',
     siteRepo:"https://github.com/eskil0312/blog",
-    siteUrl:"",
+    siteUrl:"https://softlind.com",
     twitter:"",
     linkedin: "eskil-sand-23300015b",
     socialAccounts: {

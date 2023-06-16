@@ -27,56 +27,7 @@
   font-size: 0.8em !important;
   margin: 0 2px;
 }
-.prose pre {
-  margin-top: 1em;
-  background-color: #222;
-}
-.prose pre code {
-  font-weight: 500 !important;
-}
-.prose pre .code-line {
-  border-color: #222;
-}
-.prose pre .code-line.highlight-line {
-  border-color: rgba(99, 102, 241, var(--tw-border-opacity)) !important;
-  display: block;
-}
 
-@media (max-width: 768px) {
-  #refs ~ ul > li {
-    word-break: break-all;
-  }
-}
-
-.prose blockquote p {
-  margin: 16px 0px;
-}
-
-.prose blockquote {
-  background: #ebebeb;
-  color: #3d3b3b;
-  border-top: 1px solid transparent;
-  border-bottom: 1px solid transparent;
-  padding-right: 8px;
-  border-left-color: #6f6868;
-}
-
-.dark .dark\:prose-dark blockquote {
-  background: #363535;
-  border-left-color: #b7abab !important;
-}
-
-.prose.prose :not(pre) > code:not([class*='language']) {
-  display: inline-block;
-  color: rgb(34, 36, 38);
-  font-weight: 500;
-  background-color: #dfdcdcc4;
-  padding-left: 8px;
-  padding-right: 8px;
-  padding-top: 0;
-  padding-bottom: 0;
-  border-radius: 6px;
-}
 
 code,
 kbd,
